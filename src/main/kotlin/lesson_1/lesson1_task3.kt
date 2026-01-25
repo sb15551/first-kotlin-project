@@ -2,17 +2,17 @@ package ru.behavior.lesson_1
 
 fun main() {
 
-    val yearFirstHumanSpaceflight: Int = 1961
-    var hourFirstHumanSpaceflight: Int = 9
-    var minuteFirstHumanSpaceflight: Int = 7
+    val year: Int = 1961
+    var hour: String = "09"
+    var minute: String = "07"
 
-    println("Year first human spaceflight = $yearFirstHumanSpaceflight")
-    println("Hour first human spaceflight = $hourFirstHumanSpaceflight")
-    println("Minute first human spaceflight = $minuteFirstHumanSpaceflight")
+    println("Year first human spaceflight = $year")
+    println("Hour first human spaceflight = $hour")
+    println("Minute first human spaceflight = $minute")
 
-    hourFirstHumanSpaceflight = 10
-    minuteFirstHumanSpaceflight = 55
+    hour = "10"
+    minute = "55"
 
-    println("Boarding time = $hourFirstHumanSpaceflight:$minuteFirstHumanSpaceflight")
+    println("Boarding time = $hour:$minute")
 
 }
