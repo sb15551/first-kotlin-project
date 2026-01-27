@@ -1,7 +1,7 @@
 package ru.behavior.lesson_1
 
-val SECONDS_TO_HOUR: Int = 3600
-val SECONDS_TO_MINUTE: Int = 60
+const val SECONDS_TO_HOUR: Int = 3600
+const val SECONDS_TO_MINUTE: Int = 60
 
 fun main() {
 
