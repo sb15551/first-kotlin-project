@@ -1,6 +1,6 @@
 package ru.behavior.lesson_2
 
-val FORMAT_DOUBLE_NUMBER: String = "%.2f"
+const val FORMAT_DOUBLE_NUMBER: String = "%.2f"
 
 fun main() {
 
